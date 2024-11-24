@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechFuture 2040</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>TechFuture 2040</h1>
+      <p>Explore o futuro da tecnologia em um evento imersivo</p>
+      <a href="#formulario" class="cta-button">Garanta Seu Ingresso</a>
+    </div>
+    <canvas id="headerCanvas"></canvas>
+  </header>
+
+  <main>
+    <section id="sobre" class="about">
+      <h2>O Evento</h2>
+      <p>O TechFuture 2040 conecta você às inovações que estão moldando o futuro. Participe de palestras com líderes globais, experiências imersivas e muito mais.</p>
+    </section>
+    
+    <section id="atracoes" class="highlights">
+      <h2>Atrações</h2>
+      <div class="highlight-list">
+        <div class="highlight">
+          <h3>Realidade Virtual</h3>
+          <p>Experimente tecnologias de VR de última geração.</p>
+        </div>
+        <div class="highlight">
+          <h3>Inteligência Artificial</h3>
+          <p>Descubra como a IA está transformando o mundo.</p>
+        </div>
+        <div class="highlight">
+          <h3>Workshops Interativos</h3>
+          <p>Participe de oficinas com especialistas da indústria.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formulario" class="form-section">
+      <h2>Garanta Seu Lugar</h2>
+      <p>Inscreva-se agora para não perder a maior experiência de 2040!</p>
+      <form action="#" method="POST" id="eventForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+        
+        <label for="setor">Selecione um Setor:</label>
+        <select id="setor" name="setor">
+          <option value="vip">Setor VIP</option>
+          <option value="pista">Pista</option>
+          <option value="estudante">Estudante</option>
+        </select>
+        
+        <button type="submit" class="cta-button">Inscrever-se</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2040 TechFuture. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
